@@ -46,7 +46,7 @@
             "nombre": "PORFOLIO",
             "descripcion": "Creación de un Porfolio en una clase en directo con los alumnos de Master D. Hemos utilizado los lenguajes aprendidos durante el curso para hacerlo.",
             "tecnologias": "HTML, CSS y JavasScript",
-            "imagen": "/assets/images/proyecto1.jpg"
+            "imagen": "../assets/images/proyecto1.jpg"
         },
         {
             "nombre": "CREA TU WEB",
