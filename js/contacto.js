@@ -33,7 +33,7 @@ function success(position) {
 
     // Definir Iconos
     let inicio = L.icon({
-        iconUrl: '../assets/images/ico-ubi-azul.png',
+        iconUrl: '/assets/images/ico-ubi-azul.png',
         iconSize: [38, 95],
         shadowSize: [50, 64],
         iconAnchor: [22, 94],
@@ -42,7 +42,7 @@ function success(position) {
     });
 
     let final = L.icon({
-        iconUrl: '../assets/images/ico-ubi-rojo.png',
+        iconUrl: '/assets/images/ico-ubi-rojo.png',
         iconSize: [38, 95],
         shadowSize: [50, 64],
         iconAnchor: [22, 94],
@@ -51,7 +51,7 @@ function success(position) {
     });
 
     let track = L.icon({
-        iconUrl: '../assets/images/ico-ubi-verde.png',
+        iconUrl: '/assets/images/ico-ubi-verde.png',
         iconSize: [38, 95],
         shadowSize: [50, 64],
         iconAnchor: [22, 94],
