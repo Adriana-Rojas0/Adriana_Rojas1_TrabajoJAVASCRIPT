@@ -70,13 +70,13 @@
             "nombre": "PORFOLIO",
             "descripcion": "Creación de un Porfolio en una clase en directo con los alumnos de Master D. Hemos utilizado los lenguajes aprendidos durante el curso para hacerlo.",
             "tecnologias": "HTML, CSS y JavasScript",
-            "imagen": "../assets/images/proyecto1.jpg"
+            "imagen": "./assets/images/proyecto1.jpg"
         },
         {
             "nombre": "CREA TU WEB",
             "descripcion": "Creación de una web para un trabajo final de Master D. Incluido además Boostrap como opción personal para practicar",
             "tecnologias": "HTML, CSS y Boostrap",
-            "imagen": "../assets/images/proyecto2.jpg"
+            "imagen": "./assets/images/proyecto2.jpg"
         }
     ]
 }
