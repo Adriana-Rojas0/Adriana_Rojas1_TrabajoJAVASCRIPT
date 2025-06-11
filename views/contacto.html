@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUWEB</title>
+    <!--link para el mapa y los estilos-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../FAVICON.png">
+</head>
+
+<body>
+    <!--Barra de navegación de la página-->
+    <header>
+        <nav>
+            <h1 class="t1">Diseñamos Web</h1>
+            
+            <div class="links-navbar" id="links-navbar"></div>
+            
+            <button class="btn-cambiar-tema" id="cambiar-tema">
+                <img class="icono" id="icono-dark" src="../assets/images/moon-svgrepo-com.svg" alt="icono para el cambio de tema">
+                <img class="icono" id="icono-light" src="../assets/images/sun-svgrepo-com.svg" alt="icono para el cambio de tema">
+            </button>
+        </nav>
+    </header>
+
+    <!--Cuerpo de la página-->
+    <main>
+        <a href="#">
+            <img src="../assets/images/flechaIcono.svg" alt="icono flecha" class="icono-top">
+        </a>
+
+        <!--Secciones de la página de contacto-->
+        <section class="section" id="proyectos">
+
+            <h2 class="titulo">Contacta con Nosotros</h2>
+
+            <p class="lis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque consectetur exercitationem ad delectus quia soluta iure saepe beatae alias libero. Est eius optio neque, nulla ipsam qui. Nesciunt, sunt placeat.</p>
+            
+            <!--caja del mapa-->
+            <div id="map"> </div>
+
+            <p class="lis">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nemo laboriosam voluptate dolores quasi eaque ipsa, modi nulla nesciunt rem, sint voluptas perferendis aut accusantium delectus tempora voluptatem libero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ullam praesentium perspiciatis laudantium voluptates ad culpa, necessitatibus quam corporis aliquid temporibus ratione, fugiat sed commodi? Ad deserunt nulla deleniti optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nemo laboriosam voluptate dolores quasi eaque ipsa, modi nulla nesciunt rem, sint voluptas perferendis aut accusantium delectus tempora voluptatem libero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ullam praesentium perspiciatis laudantium voluptates ad culpa, necessitatibus quam corporis aliquid temporibus ratione, fugiat sed commodi? Ad deserunt nulla deleniti optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nemo laboriosam voluptate dolores quasi eaque ipsa, modi nulla nesciunt rem, sint voluptas perferendis aut accusantium delectus tempora voluptatem libero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ullam praesentium perspiciatis laudantium voluptates ad culpa, necessitatibus quam corporis aliquid temporibus ratione, fugiat sed commodi? Ad deserunt nulla deleniti optio!</p>
+            
+        </section>
+    </main>
+
+    <!--Pie de Página-->
+    <footer class="pie_pagina">
+        <div class="grupo_1">
+            <div class="box">
+               <figure>
+                   <a href="../assets/pdf/CV-Adriana-Rojas-Desarrolladora-Web-Junior-Front-End-Developer.pdf" target="_blank">
+                       <img src="../assets/images/curriculum-resume-svgrepo-com.svg" alt="Logo">
+                   </a>
+               </figure>
+            </div>
+            <div class="box">
+               <h2>SOBRE NOSOTROS</h2>
+               <p>Cobertura a nivel nacional. España, Zaragoza</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maxime.</p>
+            </div>
+            <div class="box">
+               <h2>SIGUEME</h2>
+               <div class="red_social">
+                   <a href="#" class="fa fa-facebook"></a>
+                   <a href="#" class="fa fa-instagram"></a>
+                   <a href="#" class="fa fa-twitter"></a>
+                   <a href="#" class="fa fa-youtube"></a>
+               </div>
+            </div>
+        </div>
+        <div class="grupo_2">
+            <small>&copy; 2023 <b>SLee Dw</b> - Todos Los Derechos Reservados</small>
+        </div>
+    </footer>
+
+    <!-- JavaScritp -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/contacto.js"></script>
+    <script src="../js/tema.js"></script>
+    <!--Iconos redes sociales-->
+    <script src="https://kit.fontawesome.com/379c8e0fd1.js" crossorigin="anonymous"></script>
+</body>
+</html>

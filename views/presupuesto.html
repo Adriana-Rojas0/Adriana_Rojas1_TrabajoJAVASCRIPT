@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>TUWEB</title>
+    <link rel="icon" href="../FAVICON.png">
+</head>
+
+<body>
+    <!--Barra de navegación de la página-->
+    <header>
+        <nav>
+            <h1 class="t1">Diseñamos Web</h1>
+            <div class="links-navbar" id="links-navbar"></div>
+            <button class="btn-cambiar-tema" id="cambiar-tema">
+                <img class="icono" id="icono-dark" src="../assets/images/moon-svgrepo-com.svg"
+                    alt="icono para el cambio de tema">
+                <img class="icono" id="icono-light" src="../assets/images/sun-svgrepo-com.svg"
+                    alt="icono para el cambio de tema">
+            </button>
+        </nav>
+    </header>
+
+    <!--Cuerpo de la página-->
+    <main>
+        <a href="#">
+            <img src="../assets/images/flechaIcono.svg" alt="icono flecha" class="icono-top">
+        </a>
+
+        <section class="section-from">
+            <form id="formulario">
+                <h2 class="titulo">Formulario de Solicitud</h2>
+                <h3 class="titulo3">Datos del Usuario</h3>
+
+                <div class="formulario-container">
+                    <div class="form">
+                        <div class="input-contenedor">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre">
+                            <span class="error" id="nombreError"></span>
+                        </div>
+
+                        <div class="input-contenedor">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido">
+                            <span class="error" id="apellidoError"></span>
+                        </div>
+
+                        <div class="input-contenedor">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono">
+                            <span class="error" id="telefonoError"></span>
+                        </div>
+
+                        <div class="input-contenedor">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                            <span class="error" id="emailError"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <h3 class="titulo3">Solicitud Presupuesto</h3>
+
+                <div class="formulario-container">
+
+                    <div class="form">
+                        <p class="lis1">Producto:</p>
+                        <select id="producto" name="selección" style="width: 250px">
+                            <option value="valor">Selecione leguaje de programación</option>
+                            <option value=1000>Página con HTML 1000€</option>
+                            <option value=2000>Página con Boostrap 2000€</option>
+                            <option value=3000>Página con JavaScrip 3000€</option>
+                            <option value=4000>Página con PHP 4000€</option>
+                        </select>
+                        <span class="error" id="productError"></span>
+                    </div>
+
+                    <div>
+                        <p class="lis1">Plazos:</p>
+                        <input type="number" class="form-control" style="width: 250px" id="plazo" value="1">
+                    </div>
+
+                    <div>
+                        <p class="lis1">Seleccione si desea añadir un extra por un costo de 50€:</p>
+
+                        <input type="checkbox" name="extra_galery" class="extras" value="50">
+                        <p class="lis">Galerías dinámicas</p>
+                        <input type="checkbox" name="extra_form" class="extras" value="50">
+                        <p class="lis">Formularios</p>
+                        <input type="checkbox" name="extra_maps" class="extras" value="50">
+                        <p class="lis">Mapas dinámicos</p>
+                        <input type="checkbox" name="extra_library" class="extras" value="50">
+                        <p class="lis">librerías externas</p>
+                    </div><br>
+
+                    <div class="error-message">
+                        Presupuesto Final:
+                        <span id="presupuestoFinal"></span>
+
+                    </div>
+                </div>
+
+
+                <h3 class="titulo3">Aceptación de Condiciones y envio de presupuesto</h3>
+                <div class="formulario-container">
+
+                    <div class="form">
+                        <div class="checkbox-contenedor">
+                            <input type="checkbox" id="privacidad" name="privacidad">
+                            <label for="privacidad">He leído la política de privacidad</label>
+                        </div>
+
+                        <div class="button-contenedor">
+                            <button type="submit">Enviar Formulario</button>
+                            <button type="reset">Borrar Formulario</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!--Pie de página-->
+    <footer class="pie_pagina">
+        <div class="grupo_1">
+            <div class="box">
+                <figure>
+                    <a href="../assets/pdf/CV-Adriana-Rojas-Desarrolladora-Web-Junior-Front-End-Developer.pdf" target="_blank">
+                        <img src="../assets/images/curriculum-resume-svgrepo-com.svg" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Cobertura a nivel nacional. España, Zaragoza</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maxime.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red_social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo_2">
+            <small>&copy; 2023 <b>SLee Dw</b> - Todos Los Derechos Reservados</small>
+        </div>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="../js/navbar.js"></script>
+    <script src="../js/presupuesto.js"></script>
+    <script src="../js/tema.js"></script>
+    <!--Iconos redes sociales-->
+    <script src="https://kit.fontawesome.com/379c8e0fd1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

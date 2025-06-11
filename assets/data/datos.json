@@ -1,0 +1,82 @@
+{
+    "navItems": [
+        {
+            "title": "Presentación",
+            "url": "/index.html"
+        },
+        {
+            "title": "Proyectos",
+            "url": "/views/proyectos.html"
+        },
+        {
+            "title": "Presupuesto",
+            "url": "/views/presupuesto.html"
+        },
+        {
+            "title": "Contacto",
+            "url": "/views/contacto.html"
+        }
+    ],
+    "presentacion": [
+        {
+            "nombre": "Junior Front-End Developer",
+            "trabajo": " | HTML | CSS | JavaScript | PHP | Librerías | Frameworks | Bootstrap | jQuery | GitHub | Git |",
+            "descripcion": "¡Hola! Soy Adriana, una apasionada desarrolladora web. Me especializo en el desarrollo front-end utilizando tecnologías como HTML, CSS y JavaScript. Me encanta crear interfaces de usuario intuitivas y atractivas, y siempre estoy buscando aprender nuevas herramientas y técnicas para mejorar mis habilidades. Estoy emocionada por contribuir a proyectos innovadores y colaborar con equipos talentosos para construir soluciones web impactantes.",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "cvLink": "assets/pdf/CV-Adriana-Rojas-Desarrolladora-Web-Junior-Front-End-Developer.pdf"
+        }
+    ],
+    "noticias": [
+        {
+            "titulo": "Aprende a usar ChatGPT paso a paso",
+            "descripcion": "Para entrar en la era de la inteligencia artificial generativa, de la mano del más popular ‘chatbot’, basta con registrarse utilizando un correo electrónico y empezar a preguntar"
+        },
+        {
+            "titulo": "The Hub Kings Corner ofrece una formación 360 en el primer centro oficial de FP bilingüe con metodología STEAM",
+            "descripcion": "The Hub Kings Corner, el centro oficial de Formación Profesional ubicado en pleno corazón de Zaragoza, ofrece a los alumnos la posibilidad de adquirir la formación 360 que demandan las empresas. Con un programa bilingüe, certificaciones oficiales y la aplicación de la metodología STEAM, el centro pone el foco en el alumno con el objetivo de que llegue a diferenciarse y destacar en su camino hacia la estabilidad laboral. Actualmente, The Hub Kings Corner ofrece cinco Grados Superiores oficiales: Marketing y Publicidad, Desarrollo de Aplicaciones Multiplataforma (DAM), Administración de Sistemas Informáticos en Red (ASIR), Gráfica Interactiva y Transporte y Logística."
+        },
+        {
+            "titulo": "Aprende a programar, las mejores escuelas te las enseñamos",
+            "descripcion": "Todos ellos se imparten con una orientación eminentemente práctica, transformando las limitaciones de la educación tradicional y preparando al estudiante para los retos reales del mercado laboral. En este sentido, el centro aplica una evaluación continua de las habilidades adquiridas, con trabajos grupales, ejercicios individuales y proyectos que no solo evalúan los conocimientos sino también las habilidades blandas o soft skills."
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "PORFOLIO",
+            "descripcion": "Creación de un Porfolio en una clase en directo con los alumnos de Master D. Hemos utilizado los lenguajes aprendidos durante el curso para hacerlo.",
+            "tecnologias": "HTML, CSS y JavasScript",
+            "imagen": "/assets/images/proyecto1.jpg"
+        },
+        {
+            "nombre": "CREA TU WEB",
+            "descripcion": "Creación de una web para un trabajo final de Master D. Incluido además Boostrap como opción personal para practicar",
+            "tecnologias": "HTML, CSS y Boostrap",
+            "imagen": "/assets/images/proyecto2.jpg"
+        },
+        {
+            "nombre": "TRABAJO FINAL JS",
+            "descripcion": "Creación de una web profesional para un trabajo final en Master D. Para desarrollarla tuve que implementarla lógica de validación de formularios con JS y un mapa dinámico usando 'Google Street Maps",
+            "tecnologias": "HTML, CSS y JavasScript",
+            "imagen": "/assets/images/proyecto3.jpeg"
+        },
+        {
+            "nombre": "PORFOLIO",
+            "descripcion": "Creación de un Porfolio en una clase en directo con los alumnos de Master D. Hemos utilizado los lenguajes aprendidos durante el curso para hacerlo.",
+            "tecnologias": "HTML, CSS y JavasScript",
+            "imagen": "/assets/images/proyecto4.jpg"
+        },
+        {
+            "nombre": "PORFOLIO",
+            "descripcion": "Creación de un Porfolio en una clase en directo con los alumnos de Master D. Hemos utilizado los lenguajes aprendidos durante el curso para hacerlo.",
+            "tecnologias": "HTML, CSS y JavasScript",
+            "imagen": "/assets/images/proyecto1.jpg"
+        },
+        {
+            "nombre": "CREA TU WEB",
+            "descripcion": "Creación de una web para un trabajo final de Master D. Incluido además Boostrap como opción personal para practicar",
+            "tecnologias": "HTML, CSS y Boostrap",
+            "imagen": "/assets/images/proyecto2.jpg"
+        }
+    ]
+}

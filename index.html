@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio</title>
+    <link rel="icon" href="FAVICON.png">
+</head>
+
+<body>
+    <!--Barra de navegación de la página-->
+    <header>
+        <nav>
+            <h1 class="t1">Junior Front-End Developer</h1>
+            <div class="links-navbar" id="links-navbar"></div>
+            <button class="btn-cambiar-tema" id="cambiar-tema">
+                <img class="icono" id="icono-dark" src="./assets/images/moon-svgrepo-com.svg"
+                    alt="icono para el cambio de tema">
+                <img class="icono" id="icono-light" src="./assets/images/sun-svgrepo-com.svg"
+                    alt="icono para el cambio de tema">
+            </button>
+        </nav>
+    </header>
+
+    <!--Cuerpo de la página-->
+    <main>
+        <a href="#">
+            <img src="./assets/images/flechaIcono.svg" alt="icono flecha" class="icono-top">
+        </a>
+        <!--Secciones de la página de inicio-->
+        <section class="section" id="presentacion">
+            <h2 class="titulo">Portfolio</h2>
+            <div class="presentacion-container" id="presentacion-container"></div>
+        </section>
+
+        <section class="section" id="parrafo">
+            <h2 class="titulo">Mi Experiencia</h2>
+                <p>He completado el Curso Superior en Programación de
+                    Páginas Web en MasterD, donde adquirí un sólido conocimiento en lenguajes de programación como HTML,
+                    CSS, JavaScript, MySQL y PHP, así como experiencia práctica en el desarrollo web.</p>
+                <p>
+                    Durante mis 975 horas de formación, he desarrollado competencias técnicas que incluyen:</p>
+                <ul>
+                    <li>Creación de archivos y maquetación HTML5.</li>
+                    <li>Diseño web utilizando CSS3, SASS y SCSS.</li>
+                    <li>Programación en JavaScript, incluyendo técnicas asincrónicas.</li>
+                    <li>Manejo de bases de datos relacionales con MySQL.</li>
+                    <li>Programación en PHP.</li>
+                    <li>Administración de servidores web con Apache.</li>
+                    <li>Gestión de sitios web a través de WordPress.</li>
+                    <li>Experiencia en entornos Linux.</li>
+                    <li>Utilización de frameworks y librerías como Bootstrap, jQuery, Materialize y Angular.</li>
+                </ul>
+
+                <p>Actualmente, estoy realizando un Certificado de Profesionalidad en centro formativo Kings Corner con un total de 510 horas. En este curso, estoy aprendiendo a desarrollar documentos y componentes software que constituyan aplicaciones informáticas en entornos distribuidos utilizando tecnologías web. Partiendo de un diseño técnico ya elaborado, realizo la verificación, documentación e implantación de los mismos.</p>
+
+        </section>
+
+        <section class="section" id="noticias">
+            <h2 class="titulo">Noticias</h2>
+            <div class="noticias-container" id="noticias-container"></div>
+        </section>
+
+        <section class="section" id="fotos">
+            <h2 class="titulo">Nuestras Instalaciones</h2>
+            <div class="imgOficina">
+                <img src="./assets/images/oficina1.jpg" alt="oficina1" width="300" class="img1">
+                <img src="./assets/images/oficina2.jpg" alt="oficina2" width="300" class="img2">
+                <img src="./assets/images/oficina3.jpg" alt="oficina3" width="300" class="img3">
+            </div>
+            <div class="imgOficina">
+                <img src="./assets/images/oficina3.jpg" alt="oficina1" width="300" class="img1">
+                <img src="./assets/images/oficina2.jpg" alt="oficina2" width="300" class="img2">
+                <img src="./assets/images/oficina1.jpg" alt="oficina3" width="300" class="img3">
+            </div>
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer class="pie_pagina">
+        <div class="grupo_1">
+            <div class="box">
+                <figure>
+                    <a href="./assets/pdf/CV-Adriana-Rojas-Desarrolladora-Web-Junior-Front-End-Developer.pdf" target="_blank">
+                        <img src="./assets/images/curriculum-resume-svgrepo-com.svg" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Cobertura a nivel nacional. España, Zaragoza</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maxime.</p>
+            </div>
+            
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red_social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo_2">
+            <small>&copy; 2023 <b>SLee Dw</b> - Todos Los Derechos Reservados</small>
+        </div>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="./js/navbar.js"></script>
+    <script src="./js/presentacion.js"></script>
+    <script src="./js/tema.js"></script>
+    <!--Iconos redes sociales-->
+    <script src="https://kit.fontawesome.com/379c8e0fd1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
