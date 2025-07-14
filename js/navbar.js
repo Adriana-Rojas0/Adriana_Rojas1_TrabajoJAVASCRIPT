@@ -39,3 +39,21 @@ window.addEventListener('scroll', function() {
         header.classList.remove('scrolled');
     }
 });
+
+window.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const linksNavbar = document.getElementById('links-navbar');
+
+    hamburger.addEventListener('click', () => {
+        linksNavbar.classList.toggle('active');
+        hamburger.classList.toggle('hide');
+    });
+
+    // Opcional: Ocultar el menú y mostrar el botón si se hace clic en un enlace del menú
+    linksNavbar.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A') {
+            linksNavbar.classList.remove('active');
+            hamburger.classList.remove('hide');
+        }
+    });
+});
