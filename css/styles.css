@@ -185,7 +185,17 @@ section::before{
 
 .imgOficina{
     display: flex;
-    margin: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imgOficina img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .img1{
@@ -523,4 +533,136 @@ section::before{
 
 .pie_pagina .grupo_2 small{
     font-size: 15px; 
+}
+/* Menú hamburguesa */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.hamburger span {
+    height: 4px;
+    width: 100%;
+    background: #756d43;
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Oculta el botón hamburguesa cuando el menú está abierto */
+.hamburger.hide {
+    display: none !important;
+}
+
+/* Mostrar el botón en móvil */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    .links-navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--background-color);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        z-index: 150;
+        padding: 20px 0;
+        padding-left: 40px;
+    }
+    .links-navbar.active {
+        display: flex;
+    }
+    .btn-cambiar-tema {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 300;
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+    .btn-cambiar-tema .icono {
+        width: 40px;
+        height: 40px;
+        margin: 0 2px;
+    }
+    nav {
+        position: relative;
+    }
+     .botonin {
+        display: inline-block;
+        border-bottom: 2px solid var(--a-link);
+        width: auto;
+        padding-bottom: 2px;
+        margin: 0 auto;
+    }
+}
+
+/* --- Media queries para pantallas medianas y móviles --- */
+@media (max-width: 1024px) {
+    .section {
+        max-width: 95%;
+        padding: 10px;
+    }
+    .imgOficina img {
+        max-width: 220px;
+    }
+    .pie_pagina .grupo_1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .links-navbar {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+    .section {
+        padding: 5px;
+    }
+    .imgOficina img {
+        max-width: 100%;
+    }
+    .pie_pagina .grupo_1 {
+        grid-template-columns: 1fr;
+        padding: 10px 0;
+    }
+    .box {
+        max-width: 100%;
+    }
+    .titulo, .t1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 2px;
+    }
+    .imgOficina img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .titulo, .t1 {
+        font-size: 1rem;
+    }
+    .pie_pagina .grupo_1 {
+        padding: 5px 0;
+    }
 }
